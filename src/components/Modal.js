@@ -1,8 +1,9 @@
 import React from 'react'
+import './contactCard.css'
 
 const Modal = (props) => {
   return (
-
+    <div className="modal-container">
     <div className="modal-wrapper">
       <div className="modal-header">
       <img src=
@@ -28,6 +29,7 @@ const Modal = (props) => {
       </div>
     </div>
   </div>
+</div>
 </div>
   )
 }
