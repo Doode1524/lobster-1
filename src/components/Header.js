@@ -7,7 +7,7 @@ const pic = lobster
 const Header = () => {
   return (
 
-      <header>
+      <header className="header">
           <h1> <img src= {pic} alt=""/> </h1>
           <h4> LOBSTER MARKETING DEV TEST </h4>
   
